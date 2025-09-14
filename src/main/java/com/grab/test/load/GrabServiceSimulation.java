@@ -14,7 +14,7 @@ public class GrabServiceSimulation extends Simulation {
 
   // Define HTTP protocol (adjust base URL to your Spring Boot app)
   private HttpProtocolBuilder httpProtocol = http
-    .baseUrl("http://34.124.188.225:30002/api") // adjust if you use context-path
+    .baseUrl("http://34.87.143.89:30002/api") // adjust if you use context-path
     .contentTypeHeader("application/json");
 
   // Scenario for creating driver
